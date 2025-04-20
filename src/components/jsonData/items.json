@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": "Pro Elite Maple Bat",
+      "price": 179.99,
+      "image": "/public/bat.jpg",
+      "description": "Top-tier elite maple bat for professionals.  Handcrafted from the finest maple wood for superior strength, power, and swing speed.  Ideal for experienced players.",
+      "specifications": {
+        "Wood": "Maple",
+        "Handle": "Standard",
+        "Barrel Size": "2 5/8 inch",
+        "Certification": "MLB approved",
+        "Available Lengths": ["32 inch", "33 inch", "34 inch"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Classic Ash Wood Bat",
+      "price": 129.99,
+      "image": "/public/bat2.jpg",
+      "description": "Traditional ash wood bat with great flex and feel.  Known for its forgiving nature on off-center hits.  A classic choice for all skill levels.",
+      "specifications": {
+        "Wood": "Ash",
+        "Handle": "Thin",
+        "Barrel Size": "2 1/2 inch",
+        "Certification": "MLB approved",
+        "Available Lengths": ["31 inch", "32 inch", "33 inch"]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Power Drive Alloy Bat",
+      "price": 229.99,
+      "image": "/public/bat3.jpg",
+      "description": "Durable alloy bat built for powerful hitters.  Engineered for maximum energy transfer and explosive performance.  Perfect for players seeking power.",
+      "specifications": {
+        "Material": "Aluminum Alloy",
+        "Handle": "Standard",
+        "Barrel Size": "2 5/8 inch",
+        "Certification": "USA Baseball approved",
+        "Available Lengths": ["30 inch", "31 inch", "32 inch"]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Junior League Maple",
+      "price": 99.99,
+      "image": "/public/bat4.jpg",
+      "description": "Perfect bat for young sluggers learning the game.  Lightweight and easy to swing, promoting good hitting mechanics.  Designed for junior league play.",
+      "specifications": {
+        "Wood": "Maple",
+        "Handle": "Youth",
+        "Barrel Size": "2 1/4 inch",
+        "Certification": "USA Baseball approved",
+        "Available Lengths": ["28 inch", "29 inch", "30 inch"]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Big Barrel Alloy Pro",
+      "price": 249.99,
+      "image": "/public/bat5.jpg",
+      "description": "Wider sweet spot for better power connection.  Maximizes hitting surface and forgiveness.  Ideal for advanced players wanting maximum performance.",
+      "specifications": {
+        "Material": "Aluminum Alloy",
+        "Handle": "Standard",
+        "Barrel Size": "2 3/4 inch",
+        "Certification": "USA Baseball approved",
+        "Available Lengths": ["32 inch", "33 inch", "34 inch"]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Custom Pro Series Bat",
+      "price": 299.99,
+      "image": "/public/bat6.jpg",
+      "description": "Custom-crafted bat tailored for serious players.  Personalize your bat with options for wood type, length, weight, and handle.  Built to your exact specifications.",
+      "specifications": {
+        "Wood Options": ["Maple", "Ash", "Birch"],
+        "Handle Options": ["Standard", "Thin", "Flared"],
+        "Barrel Size Options": ["2 1/2 inch", "2 5/8 inch"],
+        "Certification": "Varies (check customization options)",
+        "Available Lengths": ["31-34 inches (customizable)"]
+      }
+    }
+  ]
+  
