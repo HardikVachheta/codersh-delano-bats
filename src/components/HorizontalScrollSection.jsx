@@ -1,28 +1,29 @@
 import { useEffect, useRef } from "react";
+import items from "./jsonData/items.json";
 
-const itemImages = [
-    'https://cdn.buttercms.com/VxaKfkXHSJaTLKzIpcx3',
-    'https://cdn.buttercms.com/2LYSGlAcS16rSoDQfGMy',
-    'https://cdn.buttercms.com/3n0Anxu6S82Kpvv91iD0',
-    'https://cdn.buttercms.com/4VGrB7XRAC2fsgoxxjox',
-    'https://cdn.buttercms.com/v4ZqN87uRq2AOGCjP8dg',
-    './bat5.jpg',
-    './bat6.jpg',
-    './bat.jpg', 
-    './bat2.jpg',
-];
+// const itemImages = [
+//     'https://cdn.buttercms.com/VxaKfkXHSJaTLKzIpcx3',
+//     'https://cdn.buttercms.com/2LYSGlAcS16rSoDQfGMy',
+//     'https://cdn.buttercms.com/3n0Anxu6S82Kpvv91iD0',
+//     'https://cdn.buttercms.com/4VGrB7XRAC2fsgoxxjox',
+//     'https://cdn.buttercms.com/v4ZqN87uRq2AOGCjP8dg',
+//     './bat5.jpg',
+//     './bat6.jpg',
+//     './bat.jpg', 
+//     './bat2.jpg',
+// ];
 
-const items = [
-    { id: 1, name: 'Pro Elite Maple Bat', price: 179.99, image: itemImages[0] },
-    { id: 2, name: 'Classic Ash Wood Bat', price: 129.99, image: itemImages[1] },
-    { id: 3, name: 'Power Drive Alloy Bat', price: 229.99, image: itemImages[2] },
-    { id: 4, name: 'Junior League Maple', price: 99.99, image: itemImages[3] },
-    { id: 5, name: 'Big Barrel Alloy Pro', price: 249.99, image: itemImages[4] },
-    { id: 6, name: 'Custom Pro Series Bat', price: 299.99, image: itemImages[5] },
-    { id: 7, name: 'Training Composite Bat', price: 149.99, image: itemImages[6] },
-    { id: 8, name: 'Handcrafted Maple Wood', price: 199.99, image: itemImages[7] },
-    { id: 9, name: 'Ultra Light Alloy Bat', price: 189.99, image: itemImages[8] },
-];
+// const items = [
+//     { id: 1, name: 'Pro Elite Maple Bat', price: 179.99, image: itemImages[0] },
+//     { id: 2, name: 'Classic Ash Wood Bat', price: 129.99, image: itemImages[1] },
+//     { id: 3, name: 'Power Drive Alloy Bat', price: 229.99, image: itemImages[2] },
+//     { id: 4, name: 'Junior League Maple', price: 99.99, image: itemImages[3] },
+//     { id: 5, name: 'Big Barrel Alloy Pro', price: 249.99, image: itemImages[4] },
+//     { id: 6, name: 'Custom Pro Series Bat', price: 299.99, image: itemImages[5] },
+//     { id: 7, name: 'Training Composite Bat', price: 149.99, image: itemImages[6] },
+//     { id: 8, name: 'Handcrafted Maple Wood', price: 199.99, image: itemImages[7] },
+//     { id: 9, name: 'Ultra Light Alloy Bat', price: 189.99, image: itemImages[8] },
+// ];
 
 
 const HorizontalScrollSection = () => {

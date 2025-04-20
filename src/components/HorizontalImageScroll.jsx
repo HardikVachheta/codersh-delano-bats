@@ -5,9 +5,10 @@ const imageItems = [
     'https://cdn.buttercms.com/VxaKfkXHSJaTLKzIpcx3',
     'https://cdn.buttercms.com/2LYSGlAcS16rSoDQfGMy',
     'https://cdn.buttercms.com/3n0Anxu6S82Kpvv91iD0',
-    'https://cdn.buttercms.com/VxaKfkXHSJaTLKzIpcx3',
-    'https://cdn.buttercms.com/2LYSGlAcS16rSoDQfGMy',
-    'https://cdn.buttercms.com/VxaKfkXHSJaTLKzIpcx3',
+    'https://cdn.buttercms.com/gHY9s3QnQ8aLG2Zs1Wzy',
+    'https://cdn.buttercms.com/66XUpOoTCSW0qAW8DDNC',
+    'https://cdn.buttercms.com/72eTtNi9Rdma3ig5hUrl',
+    'https://cdn.buttercms.com/6XELxXEXSzNh2os9JbCj'
 ];
 
 const HorizontalImageScroll = () => {

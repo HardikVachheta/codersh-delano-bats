@@ -76,7 +76,7 @@ const ShopSection = () => {
                                 <img
                                     src={item.image}
                                     alt={item.name}
-                                    className="w-full h-64 object-cover rounded-xl mb-4
+                                    className="w-full bg-white h-64 object-cover rounded-xl mb-4
                                                transition-transform duration-300 hover:scale-105"
                                 />
                                 <h3 className="text-2xl font-semibold text-white text-center mt-2">{item.name}</h3>
@@ -98,7 +98,7 @@ const ShopSection = () => {
                     <Button
                         variant="outline"
                         size="lg"
-                        className="text-blue-500 border-gray-500 hover:bg-white/10 hover:border-white transition-colors text-xl px-8 py-3"
+                        className="border border-gray-300 text-gray-800 hover:bg-gray-100 text-blue-500 border-gray-500 hover:bg-white/10 hover:border-white transition-colors text-xl px-8 py-3"
                         onClick={handleShopMoreClick}
                     >
                         Explore More Bats
@@ -107,7 +107,7 @@ const ShopSection = () => {
             </div>
         </section>
     );
-};
+};        
 
 
 export default ShopSection;

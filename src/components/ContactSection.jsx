@@ -11,8 +11,7 @@ import {
 } from 'lucide-react';
 import { cardVariants, sectionVariants } from '../App';
 
-// Placeholder for the bat logo image URL
-const batLogo = './batlogo.jpg'; // Replace with your actual logo URL
+const batLogo = 'https://www.delanobats.com/_next/image?url=https%3A%2F%2Fcdn.buttercms.com%2FJse9bneQZaYNFFQHOsDg&w=1200&q=75'; 
 
 const ContactSection = () => {
     return (

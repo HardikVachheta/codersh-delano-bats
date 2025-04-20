@@ -11,7 +11,7 @@ const Button = ({ className, variant, size, children, ...props }) => {
       break;
     case 'secondary':
       variantClasses = 'bg-gray-100 text-gray-800 hover:bg-gray-200';
-      break;
+      break;     
     case 'outline':
       variantClasses = 'border border-gray-300 text-gray-800 hover:bg-gray-100';
       break;
@@ -52,3 +52,4 @@ const Button = ({ className, variant, size, children, ...props }) => {
 };
 
 export default Button;
+          
