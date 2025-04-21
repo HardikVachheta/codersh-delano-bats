@@ -57,7 +57,7 @@ const ShopSection = () => {
                     viewport={{ once: true }}
                     className="text-4xl font-extrabold text-white mb-12 tracking-tight"
                 >
-                    Our Latest Bats
+                    STOCK LUMBER
                 </motion.h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {items.slice(0, 4).map((item) => (  //show only 4

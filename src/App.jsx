@@ -10,6 +10,7 @@ import HorizontalScrollSection from './components/HorizontalScrollSection';
 import HorizontalImageScroll from './components/HorizontalImageScroll';
 import { NewShopPage } from './components/NewShopPage';
 import ItemDetailPage from './components/ItemDetailPage';
+import BlogSection from './components/BlogSection';
 
 export const sectionVariants = {
     hidden: { opacity: 0 },
@@ -30,8 +31,9 @@ const App = () => {
                         <Header />
                         <main>
                             <MainSection />
-                            <ShopSection />
+                            <BlogSection />
                             <AboutSection />
+                            <ShopSection />
                             <HorizontalScrollSection />
                             <HorizontalImageScroll />
                             <ContactSection />

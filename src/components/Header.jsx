@@ -24,6 +24,7 @@ export const Header = () => {
                         <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a></li>
                         <li><a href="#shop" className="text-gray-300 hover:text-white transition-colors">Shop</a></li>
                         <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#blog" className="text-gray-300 hover:text-white transition-colors">Blog</a></li>
                     </ul>
                 </nav>
 
@@ -40,6 +41,7 @@ export const Header = () => {
                         <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a></li>
                         <li><a href="#shop" className="text-gray-300 hover:text-white transition-colors">Shop</a></li>
                         <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#blog" className="text-gray-300 hover:text-white transition-colors">Blog</a></li>
                     </ul>
                 </div>
             )}

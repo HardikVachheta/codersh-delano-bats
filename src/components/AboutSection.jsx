@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const AboutSection = () => {
   return (
-      <section id="about" className="py-20 bg-gray-800">
+      <section id="about" className="py-20 bg-red-700">
           <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
               <motion.div
                   variants={sectionVariants}

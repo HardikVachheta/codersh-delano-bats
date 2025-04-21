@@ -34,13 +34,13 @@ const HorizontalImageScroll = () => {
     const loopImages = [...imageItems, ...imageItems];
 
     return (
-        <section id="blog" className="overflow-hidden py-10 bg-white">
+        <section id="blog" className="overflow-hidden py-10 bg-gray">
             <div className="text-center mb-4">
                 <p className="font-script text-gray-700">
-                    <h2 className="text-4xl font-extrabold text-black px-5 mb-1 text-center tracking-tight">
+                    <h2 className="text-4xl font-extrabold text-white px-5 mb-1 text-center tracking-tight">
                         FOLLOW US ON INSTAGRAM
                     </h2><br />
-                    <span className="text-xl font-bold text-gray-900">@delanobatco</span>
+                    <span className="text-xl font-bold text-white">@delanobatco</span>
                 </p>
             </div>
             <div
