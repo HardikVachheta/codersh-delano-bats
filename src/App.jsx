@@ -1,16 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
-import ShopSection from './components/ShopSection';
+import ShopSection from './sections/ShopSection';
 import { Header } from './components/Header';
-import { MainSection } from './components/MainSection';
-import { AboutSection } from './components/AboutSection';
+import { MainSection } from './sections/MainSection';
+import { AboutSection } from './sections/AboutSection';
 import { Route, Routes } from 'react-router-dom';
-import ContactSection from './components/ContactSection';
+import ContactSection from './sections/ContactSection';
 import Footer from './components/Footer';
 import HorizontalScrollSection from './components/HorizontalScrollSection';
 import HorizontalImageScroll from './components/HorizontalImageScroll';
-import { NewShopPage } from './components/NewShopPage';
-import ItemDetailPage from './components/ItemDetailPage';
-import BlogSection from './components/BlogSection';
+import { NewShopPage } from './pages/NewShopPage';
+import ItemDetailPage from './pages/ItemDetailPage';
+import BlogSection from './sections/BlogSection';
 
 export const sectionVariants = {
     hidden: { opacity: 0 },

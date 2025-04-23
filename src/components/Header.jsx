@@ -21,10 +21,10 @@ export const Header = () => {
                 </Link>
                 <nav className="hidden md:block">
                     <ul className="flex space-x-6">
-                        <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a></li>
-                        <li><a href="#shop" className="text-gray-300 hover:text-white transition-colors">Shop</a></li>
-                        <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
-                        <li><a href="#blog" className="text-gray-300 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="/#about" className="text-gray-300 hover:text-white transition-colors">About</a></li>
+                        <li><a href="/#shop" className="text-gray-300 hover:text-white transition-colors">Shop</a></li>
+                        <li><a href="/#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="/#blog" className="text-gray-300 hover:text-white transition-colors">Blog</a></li>
                     </ul>
                 </nav>
 

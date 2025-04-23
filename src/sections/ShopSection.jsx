@@ -1,39 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Button from './ui/Button'; // Assuming your Button component is in the same directory
+import Button from '../components/ui/Button'; 
 import { ShoppingCart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
-// Placeholder images (replace with your actual image URLs)
-const itemImages = [
-    './bat.jpg',
-    './bat2.jpg',
-    './bat3.jpg',
-    './bat4.jpg',
-    './bat5.jpg',
-    './bat6.jpg',
-];
-
-// Animation variants
-const cardVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeInOut' } },
-};
-
-const sectionVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 0.8, delay: 0.2 } },
-};
-
-// Item Data (replace with your actual data)
-const items = [
-    { id: 1, name: 'Pro Elite Maple Bat', price: 179.99, image: itemImages[0] },
-    { id: 2, name: 'Classic Ash Wood Bat', price: 129.99, image: itemImages[1] },
-    { id: 3, name: 'Power Drive Alloy Bat', price: 229.99, image: itemImages[2] },
-    { id: 4, name: 'Junior League Maple', price: 99.99, image: itemImages[3] },
-    { id: 5, name: 'Big Barrel Alloy Pro', price: 249.99, image: itemImages[4] },
-    { id: 6, name: 'Custom Pro Series Bat', price: 299.99, image: itemImages[5] },
-];
+import items from '../components/jsonData/items.json'
+import { cardVariants, sectionVariants } from '../App';
 
 const ShopSection = () => {
     const navigate = useNavigate();

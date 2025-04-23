@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Input from './ui/Input'; // Assuming these are your UI components
+import Input from '../components/ui/Input'; // Assuming these are your UI components
 import {
     Mail,
     MapPin,
@@ -20,14 +20,12 @@ const ContactSection = () => {
                 <div className="max-w-5xl mx-auto px-4">
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-center md:text-left">
 
-                        {/* Left side text */}
                         <div className="md:w-1/3">
                             <h3 className="text-white font-bold text-lg md:text-xl uppercase tracking-wide">
                                 Stay Up To Date
                             </h3>
                         </div>
 
-                        {/* Right side input + button */}
                         <div className="flex w-full md:w-2/3 max-w-xl">
                             <Input
                                 type="email"

@@ -1,12 +1,12 @@
 import { ArrowLeft, ShoppingCart } from "lucide-react";
-import Button from "./ui/Button";
-import Footer from "./Footer";
-import ContactSection from "./ContactSection";
-import HorizontalScrollSection from "./HorizontalScrollSection";
-import HorizontalImageScroll from "./HorizontalImageScroll";
-import { Header } from "./Header";
+import Button from "../components/ui/Button";
+import Footer from "../components/Footer";
+import ContactSection from "../sections/ContactSection";
+import HorizontalScrollSection from "../components/HorizontalScrollSection";
+import HorizontalImageScroll from "../components/HorizontalImageScroll";
+import { Header } from "../components/Header";
 import { Link, useNavigate } from "react-router-dom";
-import items from './jsonData/items.json'
+import items from '../components/jsonData/items.json'
 
 export const NewShopPage = () => {
 
@@ -42,7 +42,7 @@ export const NewShopPage = () => {
                                     key={item.id}
                                     className="bg-white/5 backdrop-blur-md rounded-xl p-6 shadow-lg border border-white/10 flex flex-col items-center justify-between"
                                 >
-                                    <div className="mb-4">
+                                    <div className="mb-4">       
                                         <img
                                             src={item.image}
                                             alt={item.name}
